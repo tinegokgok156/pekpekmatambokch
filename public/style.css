@@ -1,0 +1,71 @@
+body {
+
+  background-color: pink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  font-family: Arial, sans-serif;
+
+}
+
+.player {
+
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+  width: 300px;
+
+}
+
+#title {
+
+  margin: 10px 0 5px 0;
+
+}
+
+#artist {
+
+  margin-bottom: 15px;
+
+  color: gray;
+
+}
+
+button {
+
+  background: #ff66b2;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  margin: 5px;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+button:hover {
+
+  background: #ff3399;
+
+}
